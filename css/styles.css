@@ -7941,7 +7941,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 
 .rounded-pill {
@@ -11364,7 +11364,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.4rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11432,4 +11432,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+#companyIcon{
+  float: left;
+  margin-right: 10px;
+  width:30px;
+  height:30px;
 }
