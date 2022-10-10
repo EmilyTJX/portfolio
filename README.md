@@ -3,3 +3,4 @@
 I'm someone who is passionate in coding and always seeking ways to expand my knowledge. I am eagar to learn new skills and apply them to everyday life.
 I am always seeking for opportunities to enhance my learning and make positive changes in society.
 Feel free to drop me an email to connect! <p>
+<p> View my portfolio here: https://emilytjx.github.io/portfolio/<p>
