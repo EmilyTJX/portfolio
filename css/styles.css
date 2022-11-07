@@ -7811,6 +7811,7 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: #70a9a1; */
 }
 
 .bg-secondary {
@@ -11439,4 +11440,17 @@ section.resume-section .resume-section-content {
   margin-right: 10px;
   width:30px;
   height:30px;
+}
+
+/* .wrapper {
+  padding: px;
+} */
+
+.image--cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  object-fit: fill;
+  object-position: center ;
 }
