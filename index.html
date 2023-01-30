@@ -23,9 +23,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Emily Tock</span>
-            <!-- <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/profile.jpg" alt="..." /></span> -->
-            <img src="assets/img/profile_2.jpg" class="image--cover">
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile_1.jpg" alt="..." /></span>
+            <!-- <img src="assets/img/profile_1.jpg" class="image--cover"> -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -57,9 +57,7 @@
                 </h1>
                 <div class="subheading mb-5">
                     Currently residing in Singapore · Personal email:
-                    <a href="tockemily@yahoo.com.sg">tockemily@yahoo.com.sg</a>
-                    · School/Work email:
-                    <a href="E0424853@u.nus.edu">E0424853@u.nus.edu</a>
+                    <u>tockemily@yahoo.com.sg</u>
                 </div>
                 <p class="lead mb-5">Hi there, welcome to my page! Feel free to look around, but please do not download
                     nor distribute any materials for personal usage! Thank you!</p>
@@ -666,7 +664,12 @@
                         <div>Computer Engineering</div>
                         <div>UTown Residential College Programme, Tembusu College (Completed)</div>
                         <div>Practising Professional Pathway</div>
-                        <p>GPA: 3.90</p>
+                        <div>
+                            GPA:<a id="myGPA"> </a>
+                            <p>
+                                <input id="checkbox" type="checkbox" onclick="revealGPA()"> Show GPA
+                            </p>
+                        </div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">August 2019 - May 2023(Expected)</span></div>
                 </div>
@@ -746,7 +749,7 @@
                 <p>Apart from being interested in web and backend development, I enjoy most of my time being outdoors.
                     In my free time, I would be
                     playing racket sports. My go-to sport would be Badminton, followed by Squash. I'm always looking
-                    forward to picking up new skills, as well as the the camaraderie built with equally passionate
+                    forward to picking up new skills, as well as the camaraderie built with equally passionate
                     players.</p>
                 <p class="mb-0">When forced indoors, I follow a number of romance and fantasy genre movies and
                     television shows and I spend a large amount of my free time exploring the latest technology

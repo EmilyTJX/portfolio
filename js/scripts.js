@@ -32,3 +32,22 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+var isRevealed = false
+function revealGPA(){
+    var GPA = document.getElementById("myGPA");
+    var box = document.getElementById("checkbox");
+
+    if(isRevealed==false){
+        let password = prompt("Please enter password:", "Are you admin?");
+        if (password=="youCouldHaveJustReadMyResumeForMyGrades") {
+            GPA.innerHTML = " 3.90";
+            box.checked = true;
+            isRevealed = true;
+        }
+    }else{
+        GPA.innerHTML = "";
+        checkbox.checked = false;
+        isRevealed = false;
+    }
+    
+}
