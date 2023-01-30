@@ -6,7 +6,7 @@
 //
 // Scripts
 // 
-
+var holder = atob("eW91Q291bGRIYXZlSnVzdFJlYWRNeVJlc3VtZUZvck15R3JhZGVz")
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -39,14 +39,16 @@ function revealGPA(){
 
     if(isRevealed==false){
         let password = prompt("Please enter password:", "Are you admin?");
-        if (password=="youCouldHaveJustReadMyResumeForMyGrades") {
-            GPA.innerHTML = " 3.90";
+        console.log(password)
+        if (password==holder && password!=null) {
+            GPA.innerHTML = atob("IDMuOTA=");
             box.checked = true;
             isRevealed = true;
+        }else{
+            checkbox.checked = false;
         }
     }else{
         GPA.innerHTML = "";
-        checkbox.checked = false;
         isRevealed = false;
     }
     
